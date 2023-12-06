@@ -16,6 +16,7 @@ const StyledContainer = styled.header`
   position: fixed;
   top: 0;
   padding: 0px 50px;
+<<<<<<< Updated upstream
   background-color: ${colors.navy};
   transition: ${theme.transition};
   z-index: 11;
@@ -31,6 +32,44 @@ const StyledContainer = styled.header`
   );
   ${media.desktop`padding: 0 40px;`};
   ${media.tablet`padding: 0 25px;`};
+=======
+  width: 100%;
+  height: var(--nav-height);
+  background-color: #020204;
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+
+  @media (max-width: 1080px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 25px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    ${props =>
+    props.scrollDirection === 'up' &&
+      !props.scrolledToTop &&
+      css`
+        height: var(--nav-scroll-height);
+        transform: translateY(0px);
+        background-color: #020204;
+        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+      `};
+
+    ${props =>
+    props.scrollDirection === 'down' &&
+      !props.scrolledToTop &&
+      css`
+        height: var(--nav-scroll-height);
+        transform: translateY(calc(var(--nav-scroll-height) * -1));
+        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+      `};
+  }
+>>>>>>> Stashed changes
 `;
 const StyledNav = styled.nav`
   ${mixins.flexBetween};

@@ -112,6 +112,7 @@ const StyledAvatarLink = styled.a`
   }
 `;
 
+<<<<<<< Updated upstream
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;
   const { title, skills, avatar } = frontmatter;
@@ -132,6 +133,53 @@ const About = ({ data }) => {
           <StyledAvatarLink href={github}>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
+=======
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
+
+  const skills = ['JavaScript (ES6+)', 'HTML & CSS', 'React', 'Node.js', 'Wix'];
+
+  return (
+    <StyledAboutSection id="about" ref={revealContainer}>
+      <h2 className="numbered-heading">About Me</h2>
+
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>
+            Hello! I'm Johnny, a software engineer currently working at Gap Inc. located in San Francisco, CA. 
+            </p>
+
+            <p>
+            I enjoy creating things on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide functionality, performant experiences.
+            </p>
+
+            <p>
+            Shortly after graduating from {''}
+              <a href="https://sfsu.edu/">
+              SFSU</a>{''}, I began self-studying full-time, building websites and projects to showcase my portfolio.
+            </p>
+
+            <p>Here are a few technologies I’ve been working with recently:</p>
+          </div>
+
+          <ul className="skills-list">
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        </StyledText>
+
+        <StyledPic>
+          <div className="wrapper">
+            <StaticImage
+              className="img"
+              src="../../images/IMG_3392.jpg"
+              width={500}
+              quality={95}
+              formats={['AUTO', 'WEBP', 'AVIF']}
+              alt="Headshot"
+            />
+          </div>
+>>>>>>> Stashed changes
         </StyledPic>
       </StyledFlexContainer>
     </StyledContainer>
