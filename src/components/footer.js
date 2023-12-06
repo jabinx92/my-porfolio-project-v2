@@ -98,7 +98,6 @@ const Footer = () => {
                 </StyledSocialLink>
               </li>
             ))}
-<<<<<<< Updated upstream
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
@@ -107,14 +106,6 @@ const Footer = () => {
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>Template by Brittany Chiang</div>
-=======
-        </ul>
-      </StyledSocialLinks>
-
-      <StyledCredit tabindex="-1">
-        <a href="https://github.com/jabinx92/my-porfolio-project-v2">
-          <div></div>
->>>>>>> Stashed changes
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>

@@ -1,5 +1,4 @@
 module.exports = {
-<<<<<<< Updated upstream
   siteTitle: 'Jonathan Won | Software Engineer',
   siteDescription:
     'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
@@ -14,10 +13,6 @@ module.exports = {
   email: 'jabinx92@gmail.com',
   github: 'https://github.com/jabinx92',
   twitterHandle: '@bchiang7',
-=======
-  email: 'jabinx92@gmail.com',
-
->>>>>>> Stashed changes
   socialMedia: [
     {
       name: 'GitHub',

@@ -64,7 +64,6 @@ const Hero = ({ data }) => {
     return () => clearTimeout(timeout);
   }, []);
 
-<<<<<<< Updated upstream
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
@@ -86,32 +85,6 @@ const Hero = ({ data }) => {
     <div style={{ transitionDelay: '500ms' }}>
       <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
     </div>
-=======
-  const one = <h1>Hello World</h1>;
-  const two = <h2 className="big-heading">I am Jonathan Won.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.<br/><span role="img" aria-label="robot">👾🤖</span>
-  </h3>;
-  const four = (
-    <>
-      <p>
-      I'm a software engineer based in San Francisco, CA specializing in building websites and applications with beautiful typefaces. Currently, I’m focused on building web homepages
-        at{' '}
-        <a href="https://gap.com/" target="_blank" rel="noreferrer">
-          Gap Inc
-        </a>
-        .
-      </p>
-    </>
-  );
-  const five = (
-    <a
-      className="email-link"
-      href="mailto:jabinx92@gmail.com"
-      target="_blank"
-      rel="noreferrer">
-      Get In Touch
-    </a>
->>>>>>> Stashed changes
   );
 
   const items = [one, two, three, four, five];

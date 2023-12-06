@@ -3,11 +3,7 @@ date: '2017-11-17'
 title: 'Operations Coordinator'
 company: 'Comba Telecom'
 location: 'Milpitas, CA'
-<<<<<<< Updated upstream
 range: 'Nov 2017 - Jan 2018'
-=======
-range: 'November 2017 - January 2018'
->>>>>>> Stashed changes
 url: 'https://www.comba-telecom.com/en/'
 ---
 

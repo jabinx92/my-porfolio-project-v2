@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
 </div>
@@ -34,8 +33,6 @@ Please also note that I did not build this site with the intention of it being a
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
-=======
->>>>>>> Stashed changes
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
